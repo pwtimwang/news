@@ -1,0 +1,104 @@
+            //    if($_GET['page'] == 'pagenum2'){
+            //    echo '<ul>';
+            //    get_most_viewed('',8,0 ,0 ,' 次浏览');//这个相信都知道是什么吧……被浏览最多的文章
+            //    echo '</ul><p>';
+            //    }
+            //    else{
+            //    echo '<ul>';
+            //    get_archives('postbypost', 8);
+            //    echo '</ul><p>';
+            //    }
+            //die;
+			
+			
+			
+			
+			//query_posts('posts_per_page=5&meta_key=_jsFeaturedPost&meta_value=yes');	
+	//$ak_post_titles = $wpdb->get_results("SELECT ID, post_title, DAYOFMONTH(post_date) as dom "
+	//	."FROM $wpdb->posts "
+	//	."WHERE post_date >= '{$thisyear}-{$thismonth}-01 00:00:00' "
+	//	."AND post_date <= '{$thisyear}-{$thismonth}-{$last_day} 23:59:59' "
+	//	."AND post_type = 'post' AND post_status = 'publish'"
+	//	);
+	//$ak_post_titles = $wpdb->get_results("SELECT ID, post_title, DAYOFMONTH(post_date) as dom "
+	//	."FROM $wpdb->posts "
+	//	//."WHERE post_date >= '{$thisyear}-{$thismonth}-01 00:00:00' "
+	//	//."AND post_date <= '{$thisyear}-{$thismonth}-{$last_day} 23:59:59' "
+	//	."WHERE post_type = 'post' AND post_status = 'publish'"
+	//	);
+		//
+		//$result = new Services_JSON();
+		//echo $result->encode($ak_post_titlese[0]);
+		//
+		//echo "good";
+		//echo json_encode( $ak_post_titles );
+		//exit;//不用这个时会把整个网页传回浏览器
+		
+		
+		function AjaxLoad1(){
+	global $wpdb;
+ if( isset($_GET['action'])){
+            if($_GET['action'] == 'ajax_slidepage'  ){
+			//query_posts('posts_per_page=5&meta_key=_jsFeaturedPost&meta_value=yes');	
+	//$ak_post_titles = $wpdb->get_results("SELECT ID, post_title, DAYOFMONTH(post_date) as dom "
+	//	."FROM $wpdb->posts "
+	//	."WHERE post_date >= '{$thisyear}-{$thismonth}-01 00:00:00' "
+	//	."AND post_date <= '{$thisyear}-{$thismonth}-{$last_day} 23:59:59' "
+	//	."AND post_type = 'post' AND post_status = 'publish'"
+	//	);
+	$ak_post_titles = $wpdb->get_results("SELECT ID, post_title, DAYOFMONTH(post_date) as dom "
+		."FROM $wpdb->posts "
+		//."WHERE post_date >= '{$thisyear}-{$thismonth}-01 00:00:00' "
+		//."AND post_date <= '{$thisyear}-{$thismonth}-{$last_day} 23:59:59' "
+		."WHERE post_type = 'post' AND post_status = 'publish'"
+		);
+		//
+		//$result = new Services_JSON();
+		//echo $result->encode($ak_post_titlese[0]);
+		//
+		//echo "good";
+		echo json_encode( $ak_post_titles );
+		exit;//不用这个时会把整个网页传回浏览器
+		//prologue_latest_posts();
+            //    if($_GET['page'] == 'pagenum2'){
+            //    echo '<ul>';
+            //    get_most_viewed('',8,0 ,0 ,' 次浏览');//这个相信都知道是什么吧……被浏览最多的文章
+            //    echo '</ul><p>';
+            //    }
+            //    else{
+            //    echo '<ul>';
+            //    get_archives('postbypost', 8);
+            //    echo '</ul><p>';
+            //    }
+            //die;
+            }
+}
+}
+add_action('init', 'AjaxLoad1');
+
+
+
+<script type="text/javascript" language="javascript"> 
+$("#text-4").height($("#iframepage").height());
+</script>
+
+
+<script type="text/javascript" language="javascript"> 
+var ifm;
+function iFrameHeight() { 
+ifm= document.getElementById("iframepage"); 
+var subWeb = document.frames ? document.frames["iframepage"].document : ifm.contentDocument; 
+if(ifm != null && subWeb != null) { 
+ifm.height = subWeb.body.scrollHeight; 
+
+//var pp= document.getElementById("text-4"); 
+//pp.style.height = ifm.height;
+
+var hei = $("#iframepage").height();
+$("#text-4").height(hei);
+$("#text-4" .textwidget).height(hei);
+
+} 
+} 
+
+</script> 

@@ -1,0 +1,2110 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2011-07-06 16:11+0800\n"
+"Last-Translator: Alex\n"
+"Language-Team: Aquoid\n"
+"MIME-Version: 1.0\n"
+
+#. Text in function
+#: suffusion/custom/pullout.php:96
+#: suffusion/custom/byline-tile.php:1
+#: suffusion/custom/post-footer.php:65
+#: suffusion/comments.php:23
+#: suffusion/custom/post-header.php:80
+msgid "% Responses"
+msgstr "% 条评论"
+
+#. Text in function
+#: suffusion/comment.php:22
+msgid "%1$s at %2$s"
+msgstr "%1$s at %2$s"
+
+#. Text in function
+#: suffusion/widgets/suffusion-query-users.php:438
+msgid "%1$s comments"
+msgstr ""
+
+#. Text in function
+#: suffusion/widgets/suffusion-query-users.php:438
+msgid "%1$s posts"
+msgstr ""
+
+#. Text in function
+#: suffusion/comments.php:23
+msgid "%1$s to &#8220;%2$s&#8221;"
+msgstr "%1$s 到 &#8220;%2$s&#8221;"
+
+#. Text in function
+#: suffusion/widgets/suffusion-query-posts.php:449
+msgid "(Any Category)"
+msgstr ""
+
+#. Text in function
+#: suffusion/comment.php:23
+msgid "(Edit)"
+msgstr "(编辑)"
+
+#. Text in function
+#: suffusion/functions.php:1455
+msgid "(required)"
+msgstr " *（必需）"
+
+#. Text in function
+#: suffusion/functions.php:1455
+msgid "0 (Zero) - Will inherit settings of the \\\"No Sidebars\\\" template"
+msgstr "0 - 将会继承\\\"无侧边栏\\\"模板的设置"
+
+#. Text in function
+#: suffusion/custom/pullout.php:96
+#: suffusion/custom/byline-tile.php:1
+#: suffusion/custom/post-footer.php:65
+#: suffusion/custom/post-header.php:80
+msgid "1 Response"
+msgstr "1条评论"
+
+#. Text in function
+#: suffusion/widgets/suffusion-query-users.php:438
+msgid "1 comment"
+msgstr ""
+
+#. Text in function
+#: suffusion/widgets/suffusion-query-users.php:438
+msgid "1 post"
+msgstr ""
+
+#. Text in function
+#: suffusion/comment.php:19
+msgid "<cite class=\"fn\">%s</cite> <span class=\"says\">says:</span>"
+msgstr "<cite class=\"fn\">%s</cite> <span class=\"says\">评论：</span>"
+
+#. Text in echo
+#: suffusion/widgets/suffusion-featured-posts.php:255
+msgid "<p>This widget displays a featured posts slider.</p>"
+msgstr "<p>这个小工具可以显示一个特色文章幻灯。</p>"
+
+#. Text in echo
+#: suffusion/widgets/suffusion-flickr.php:117
+msgid "<p>This widget lets you display a Flickr stream.</p>"
+msgstr "<p>这个小工具可以显示Flickr Stream。</p>"
+
+#. Text in echo
+#: suffusion/widgets/suffusion-query-posts.php:449
+msgid "<p>This widget lets you display the latest posts from a category.</p>"
+msgstr "<p>这个小工具可以显示来自某个分类下的最新文章。</p>"
+
+#. Text in function
+#: suffusion/widgets/suffusion-search.php:53
+msgid "A search form for your blog"
+msgstr "搜索表单"
+
+#. Text in function
+#: suffusion/widgets/suffusion-child-pages.php:298
+msgid "A widget for displaying child pages of a given page."
+msgstr ""
+
+#. Text in function
+#: suffusion/widgets/suffusion-featured-posts.php:255
+msgid "A widget for displaying featured posts."
+msgstr "可以用于显示特色文章的小工具。"
+
+#. Text in function
+#: suffusion/widgets/suffusion-query-users.php:438
+msgid "A widget for displaying users and their profiles."
+msgstr ""
+
+#. Text in function
+#: suffusion/widgets/suffusion-flickr.php:117
+msgid "A widget to display your Flickr stream"
+msgstr "可以用来显示Flickr stream的小工具"
+
+#. Text in function
+#: suffusion/widgets/suffusion-twitter.php:344
+msgid "A widget to enable people to follow you on Twitter"
+msgstr "这个小工具允许人们在Twitter上关注你"
+
+#. Text in function
+#: suffusion/widgets/suffusion-translator.php:125
+msgid "A widget to let people use Google Translator to translate your site"
+msgstr "这个小工具可以让人们通过Google翻译来翻译你的网站"
+
+#. Text in function
+#: suffusion/widgets/suffusion-query-posts.php:449
+msgid "A widget to pull posts based on various selection criteria. You can use this to display posts from a category, latest posts, random posts, popular posts etc."
+msgstr ""
+
+#. Text in function
+#: suffusion/custom/pullout.php:96
+#: suffusion/custom/pullout-page.php:1
+#: suffusion/custom/post-footer.php:73
+#: suffusion/custom/post-header.php:73
+#: suffusion/custom/post-header.php:142
+msgid "Add comments"
+msgstr "添加评论"
+
+#. Text in function
+#: suffusion/widgets/suffusion-query-users.php:431
+msgid "Administrators"
+msgstr ""
+
+#. Text in echo
+#: suffusion/widgets/suffusion-child-pages.php:260
+msgid "All child pages, displayed hierarchically"
+msgstr ""
+
+#. Text in echo
+#: suffusion/widgets/suffusion-child-pages.php:261
+msgid "All child pages, displayed in a single list"
+msgstr ""
+
+#. Text in function
+#: suffusion/widgets/suffusion-query-posts.php:449
+msgid "All post formats"
+msgstr ""
+
+#. Text in function
+#: suffusion/widgets/suffusion-query-users.php:431
+#: suffusion/widgets/suffusion-query-users.php:298
+#: suffusion/widgets/suffusion-query-users.php:314
+msgid "All users"
+msgstr ""
+
+#. Text in function
+#: suffusion/widgets/suffusion-featured-posts.php:255
+msgid "Alternate excerpt between left and right"
+msgstr "摘要在左或右交替显示"
+
+#. Text in function
+#: suffusion/widgets/suffusion-featured-posts.php:255
+msgid "Alternate excerpt between top and bottom"
+msgstr "摘要在顶部或底部交替显示"
+
+#. Text in function
+#: suffusion/functions/media.php:1
+msgid "Aperture"
+msgstr "光圈"
+
+#. Text in echo
+#: suffusion/sidebar.php:47
+#: suffusion/functions.php:1455
+msgid "Archives"
+msgstr "归档"
+
+#. Text in function
+#: suffusion/widgets/suffusion-child-pages.php:206
+#: suffusion/widgets/suffusion-query-posts.php:449
+#: suffusion/widgets/suffusion-query-users.php:431
+msgid "Ascending"
+msgstr ""
+
+#. Text in function
+#: suffusion/widgets/suffusion-query-posts.php:449
+msgid "Aside"
+msgstr ""
+
+#. Text in function
+#: suffusion/widgets/suffusion-query-posts.php:449
+msgid "Audio"
+msgstr ""
+
+#. Text in function
+#: suffusion/custom/byline-tile.php:1
+msgid "Author"
+msgstr "作者"
+
+#. Text in function
+#: suffusion/widgets/suffusion-query-users.php:431
+msgid "Author page"
+msgstr ""
+
+#. Text in function
+#: suffusion/widgets/suffusion-query-users.php:431
+msgid "Authors"
+msgstr ""
+
+#. Text in function
+#: suffusion/widgets/suffusion-featured-posts.php:255
+msgid "Bottom"
+msgstr "底部"
+
+#. Text in function
+#: suffusion/widgets/suffusion-query-posts.php:307
+msgid "Box upon hover (magazine-style)"
+msgstr "悬浮框（杂志风格）"
+
+#. Text in function
+#: suffusion/functions/media.php:1
+msgid "Camera"
+msgstr "相机"
+
+#. Text in function
+#: suffusion/comments.php:87
+msgid "Cancel reply"
+msgstr "取消回复"
+
+#. Text in function
+#: suffusion/functions/media.php:1
+msgid "Caption"
+msgstr "标题"
+
+#. Text in echo
+#: suffusion/sidebar.php:36
+#: suffusion/custom/byline-tile.php:1
+#: suffusion/functions.php:1455
+msgid "Categories"
+msgstr "分类"
+
+#. Text in echo
+#: suffusion/widgets/suffusion-query-posts.php:369
+msgid "Category Icon:"
+msgstr "分类图标："
+
+#. Text in echo
+#: suffusion/widgets/suffusion-query-posts.php:387
+msgid "Category icon custom image link:"
+msgstr "自定义分类图标链接："
+
+#. Text in function
+#: suffusion/widgets/suffusion-query-posts.php:449
+msgid "Chat"
+msgstr ""
+
+#. Text in function
+#: suffusion/widgets/suffusion-child-pages.php:298
+msgid "Child Pages"
+msgstr ""
+
+#. Text in echo
+#: suffusion/widgets/suffusion-child-pages.php:221
+msgid "Comma-separated list of page ids."
+msgstr ""
+
+#. Text in echo
+#: suffusion/widgets/suffusion-child-pages.php:215
+msgid "Comma-separated list of page ids. All other selection criteria are ignored."
+msgstr ""
+
+#. Text in echo
+#: suffusion/widgets/suffusion-query-users.php:242
+msgid "Comma-separated list of user ids."
+msgstr ""
+
+#. Text in echo
+#: suffusion/widgets/suffusion-query-users.php:236
+msgid "Comma-separated list of user ids. Only matching users will be shown."
+msgstr ""
+
+#. Text in function
+#: suffusion/functions.php:1455
+msgid "Comments"
+msgstr "评论"
+
+#. Text in echo
+#: suffusion/sidebar.php:75
+msgid "Comments (RSS)"
+msgstr "评论（RSS）"
+
+#. Text in echo
+#: suffusion/sidebar-tabs.php:64
+#: suffusion/widgets/suffusion-meta.php:27
+msgid "Comments <abbr title=\"Really Simple Syndication\">RSS</abbr>"
+msgstr "评论 <abbr title=\"Really Simple Syndication\">RSS</abbr>"
+
+#. Text in function
+#: suffusion/widgets/suffusion-query-users.php:431
+msgid "Contributors"
+msgstr ""
+
+#. Text in function
+#: suffusion/functions/media.php:1
+msgid "Copyright"
+msgstr "版权"
+
+#. Text in function
+#: suffusion/custom/seo.php:1
+msgid "Copyright (c) %1$s"
+msgstr "版权 (c) %1$s"
+
+#. Text in function
+#: suffusion/widgets/suffusion-query-posts.php:449
+msgid "Creation date"
+msgstr ""
+
+#. Text in function
+#: suffusion/widgets/suffusion-child-pages.php:206
+msgid "Creation time"
+msgstr ""
+
+#. Text in function
+#: suffusion/functions/media.php:1
+msgid "Credit"
+msgstr "致谢"
+
+#. Text in function
+#: suffusion/widgets/suffusion-featured-posts.php:255
+msgid "Current post is covered by next post"
+msgstr "当前文章被下篇文章覆盖"
+
+#. Text in function
+#: suffusion/widgets/suffusion-featured-posts.php:255
+msgid "Current post moves off next post"
+msgstr "当前文章移开，露出下篇文章"
+
+#. Text in function
+#: suffusion/widgets/suffusion-query-users.php:431
+msgid "Custom + User description"
+msgstr ""
+
+#. Text in function
+#: suffusion/functions.php:1455
+msgid "Custom Tab 1"
+msgstr "自定义标签页1"
+
+#. Text in function
+#: suffusion/functions.php:1455
+msgid "Custom Tab 10"
+msgstr "自定义标签页10"
+
+#. Text in function
+#: suffusion/functions.php:1455
+msgid "Custom Tab 2"
+msgstr "自定义标签页2"
+
+#. Text in function
+#: suffusion/functions.php:1455
+msgid "Custom Tab 3"
+msgstr "自定义标签页3"
+
+#. Text in function
+#: suffusion/functions.php:1455
+msgid "Custom Tab 4"
+msgstr "自定义标签页4"
+
+#. Text in function
+#: suffusion/functions.php:1455
+msgid "Custom Tab 5"
+msgstr "自定义标签页5"
+
+#. Text in function
+#: suffusion/functions.php:1455
+msgid "Custom Tab 6"
+msgstr "自定义标签页6"
+
+#. Text in function
+#: suffusion/functions.php:1455
+msgid "Custom Tab 7"
+msgstr "自定义标签页7"
+
+#. Text in function
+#: suffusion/functions.php:1455
+msgid "Custom Tab 8"
+msgstr "自定义标签页8"
+
+#. Text in function
+#: suffusion/functions.php:1455
+msgid "Custom Tab 9"
+msgstr "自定义标签页9"
+
+#. Text in function
+#: suffusion/widgets/suffusion-query-users.php:431
+msgid "Custom format (defined below)"
+msgstr ""
+
+#. Text in echo
+#: suffusion/widgets/suffusion-featured-posts.php:162
+msgid "Custom image height:"
+msgstr "自定义图片高度："
+
+#. Text in echo
+#: suffusion/widgets/suffusion-featured-posts.php:168
+msgid "Custom image width:"
+msgstr "自定义图片宽度："
+
+#. Text in echo
+#: suffusion/widgets/suffusion-query-users.php:390
+msgid "Custom user description format (Short-codes allowed)"
+msgstr ""
+
+#. Text in function
+#: suffusion/custom/byline-tile.php:1
+msgid "Date"
+msgstr "日期"
+
+#. Text in function
+#: suffusion/functions/media.php:1
+msgid "Date Taken"
+msgstr "拍摄日期"
+
+#. Text in function
+#: suffusion/widgets/suffusion-query-posts.php:449
+msgid "Default"
+msgstr ""
+
+#. Text in function
+#: suffusion/functions.php:1455
+msgid "Default - Inherit default sidebar layout for your blog"
+msgstr "默认-承接默认侧边栏布局"
+
+#. Text in function
+#: suffusion/widgets/suffusion-child-pages.php:206
+#: suffusion/widgets/suffusion-query-posts.php:449
+#: suffusion/widgets/suffusion-query-users.php:431
+msgid "Descending"
+msgstr ""
+
+#. Text in function
+#: suffusion/widgets/suffusion-query-users.php:431
+msgid "Description set in user profile"
+msgstr ""
+
+#. Text in function
+#: suffusion/widgets/suffusion-featured-posts.php:255
+msgid "Diagonal Blinds"
+msgstr "对角百叶效果"
+
+#. Text in echo
+#: suffusion/widgets/suffusion-child-pages.php:229
+msgid "Display grandchildren."
+msgstr ""
+
+#. Text in function
+#: suffusion/widgets/suffusion-query-users.php:431
+msgid "Display name"
+msgstr ""
+
+#. Text in echo
+#: suffusion/functions.php:658
+msgid "Do not display the page title"
+msgstr "不要显示页面标题"
+
+#. Text in echo
+#: suffusion/functions.php:652
+msgid "Do not link to this page in the navigation bars"
+msgstr "不要把当前页面链接至导航栏"
+
+#. Text in function
+#: suffusion/widgets/suffusion-query-users.php:431
+msgid "Don't show"
+msgstr ""
+
+#. Text in function
+#: suffusion/widgets/suffusion-query-users.php:431
+msgid "Don't show a Gravatar"
+msgstr ""
+
+#. Text in function
+#: suffusion/widgets/suffusion-featured-posts.php:255
+msgid "Don't show any text"
+msgstr "不显示任何文字"
+
+#. Text in function
+#: suffusion/widgets/suffusion-twitter.php:344
+msgid "Don't show feeds"
+msgstr "不显示feeds"
+
+#. Text in function
+#: suffusion/widgets/suffusion-twitter.php:344
+msgid "Don't show tagline"
+msgstr "不显示标签行"
+
+#. Text in function
+#: suffusion/functions.php:1455
+msgid "Double Left - Will inherit settings of the \\\"Double Left Sidebars\\\" template"
+msgstr "双左 - 将会承接“双左侧边栏”模板的设置"
+
+#. Text in function
+#: suffusion/functions.php:1455
+msgid "Double Right - Will inherit settings of the \\\"Double Right Sidebars\\\" template"
+msgstr "双右 - 将会承接“右侧边栏”模板的设置"
+
+#. Text in function
+#: suffusion/functions.php:1455
+msgid "E-mail"
+msgstr "电邮"
+
+#. Text in echo
+#: suffusion/widgets/suffusion-featured-posts.php:153
+msgid "E.g. 250px"
+msgstr "比如 250px"
+
+#. Text in function
+#: suffusion/custom/pullout.php:95
+#: suffusion/custom/byline-tile.php:1
+#: suffusion/custom/pullout-page.php:1
+#: suffusion/custom/post-header.php:148
+msgid "Edit"
+msgstr "编辑"
+
+#. Text in function
+#: suffusion/widgets/suffusion-query-users.php:431
+msgid "Editors"
+msgstr ""
+
+#. Text in function
+#: suffusion/widgets/suffusion-query-users.php:431
+msgid "Email"
+msgstr ""
+
+#. Text in echo
+#: suffusion/widgets/suffusion-subscription.php:85
+msgid "Email Subscription Box Default Text:"
+msgstr "邮件订阅框默认文本："
+
+#. Text in echo
+#: suffusion/widgets/suffusion-subscription.php:91
+msgid "Email Subscription Button Text:"
+msgstr "邮件订阅按钮文本："
+
+#. Text in echo
+#: suffusion/widgets/suffusion-featured-posts.php:158
+msgid "Enable custom image size for featured images"
+msgstr "允许特色图片自定义大小"
+
+#. Text in function
+#: suffusion/widgets/suffusion-subscription.php:252
+msgid "Enter %1$s account name:"
+msgstr "输入 %1$s 账户名："
+
+#. Text in echo
+#: suffusion/functions.php:719
+msgid "Enter a comma-separated list of keywords for this post. This list will be included in the meta tags for this post."
+msgstr "输入半角逗号分开的关键词列表。关键词列表将包含在本文Meta标签中。"
+
+#. Text in echo
+#: suffusion/widgets/suffusion-query-posts.php:419
+msgid "Enter a comma-separated list of post ids. Only matching posts will be shown."
+msgstr ""
+
+#. Text in echo
+#: suffusion/widgets/suffusion-query-posts.php:413
+msgid "Enter a comma-separated list of tags. Posts will be filtered by these tags."
+msgstr ""
+
+#. Text in function
+#: suffusion/widgets/suffusion-subscription.php:252
+msgid "Enter email address"
+msgstr "输入邮箱地址"
+
+#. Text in echo
+#: suffusion/functions.php:710
+msgid "Enter the full URL of the featured image that you would like to use, including http://"
+msgstr "输入特色图片的完整网址，包含http://"
+
+#. Text in echo
+#: suffusion/functions.php:705
+msgid "Enter the full URL of the thumbnail image that you would like to use, including http://"
+msgstr "输入缩略图的完整网址，包含http://"
+
+#. Text in echo
+#: suffusion/widgets/suffusion-featured-posts.php:145
+msgid "Enter time in milliseconds. E.g. 1000"
+msgstr "输入时间（单位：毫秒）。比如1000"
+
+#. Text in echo
+#: suffusion/widgets/suffusion-featured-posts.php:139
+msgid "Enter time in milliseconds. E.g. 4000"
+msgstr "输入时间（单位：毫秒）。比如4000"
+
+#. Text in function
+#: suffusion/widgets/suffusion-subscription.php:75
+msgid "Enter your %1$s feed name. If your feed address is http://feeds.feedburner.com/my_feed_name, your feed name is my_feed_name"
+msgstr "输入你的 %1$s feed名称。如果你的feed地址为http://feeds.feedburner.com/my_feed_name，那么你的feed名称为my_feed_name"
+
+#. Text in function
+#: suffusion/widgets/suffusion-subscription.php:252
+msgid "Enter your full %1$s URL:"
+msgstr "输入完整的 %1$s 网址："
+
+#. Text in echo
+#: suffusion/sidebar.php:74
+msgid "Entries (RSS)"
+msgstr "文章（RSS）"
+
+#. Text in echo
+#: suffusion/sidebar-tabs.php:63
+#: suffusion/widgets/suffusion-meta.php:26
+msgid "Entries <abbr title=\"Really Simple Syndication\">RSS</abbr>"
+msgstr "文章 <abbr title=\"Really Simple Syndication\">RSS</abbr>"
+
+#. Text in function
+#: suffusion/functions.php:1455
+msgid "Error 404 - Not Found"
+msgstr "404错误-您访问的页面不存在"
+
+#. Text in echo
+#: suffusion/widgets/suffusion-featured-posts.php:211
+msgid "Excerpt background color:"
+msgstr "摘要背景颜色："
+
+#. Text in echo
+#: suffusion/widgets/suffusion-featured-posts.php:221
+msgid "Excerpt font color:"
+msgstr "摘要字体颜色："
+
+#. Text in echo
+#: suffusion/widgets/suffusion-featured-posts.php:216
+msgid "Excerpt title color:"
+msgstr "摘要标题颜色："
+
+#. Text in echo
+#: suffusion/widgets/suffusion-child-pages.php:219
+#: suffusion/widgets/suffusion-query-users.php:240
+msgid "Exclude:"
+msgstr ""
+
+#. Text in function
+#: suffusion/custom/breadcrumb.php:1
+msgid "F"
+msgstr ""
+
+#. Text in function
+#: suffusion/widgets/suffusion-featured-posts.php:255
+msgid "Fade In"
+msgstr "淡入"
+
+#. Text in function
+#: suffusion/widgets/suffusion-featured-posts.php:255
+msgid "Featured Content"
+msgstr "特色内容"
+
+#. Text in echo
+#: suffusion/functions.php:708
+msgid "Featured Image"
+msgstr "特色图片"
+
+#. Text in echo
+#: suffusion/widgets/suffusion-featured-posts.php:113
+msgid "Featured content transition effect:"
+msgstr "特色内容切换效果："
+
+#. Text in echo
+#: suffusion/widgets/suffusion-subscription.php:73
+msgid "FeedBurner Feed:"
+msgstr "FeedBurner Feed:"
+
+#. Text in function
+#: suffusion/functions/media.php:1
+msgid "File"
+msgstr "文件"
+
+#. Text in echo
+#: suffusion/widgets/suffusion-featured-posts.php:97
+msgid "Fill in a comma-separated list of category ids. E.g. 3,8,17"
+msgstr "填写英文逗号分隔的分类ID列表。如3,8,17"
+
+#. Text in echo
+#: suffusion/widgets/suffusion-featured-posts.php:109
+msgid "Fill in a comma-separated list of page ids. E.g. 7,9,13"
+msgstr "填写英文逗号分隔的页面ID列表。如7,9,13"
+
+#. Text in echo
+#: suffusion/widgets/suffusion-featured-posts.php:103
+msgid "Fill in a comma-separated list of post ids. E.g. 7,9,13"
+msgstr "填写英文逗号分隔的文章ID列表。如7,9,13"
+
+#. Text in function
+#: suffusion/widgets/suffusion-flickr.php:117
+msgid "Flickr"
+msgstr "Flickr"
+
+#. Text in echo
+#: suffusion/widgets/suffusion-flickr.php:75
+msgid "Flickr ID (<a href=\"http://www.idgettr.com\">idGettr</a>):"
+msgstr "Flickr 用户名(<a href=\"http://www.idgettr.com\">idGettr</a>)："
+
+#. Text in function
+#: suffusion/functions/media.php:1
+msgid "Focal Length"
+msgstr "焦距"
+
+#. Text in function
+#: suffusion/widgets/suffusion-subscription.php:252
+msgid "Follow Me"
+msgstr "关注我"
+
+#. Text in function
+#: suffusion/widgets/suffusion-twitter.php:344
+msgid "Follow me on Twitter"
+msgstr "在Twitter上关注我"
+
+#. Text in function
+#: suffusion/widgets/suffusion-query-posts.php:449
+msgid "Gallery"
+msgstr ""
+
+#. Text in function
+#: suffusion/widgets/suffusion-translator.php:125
+msgid "Google Translator"
+msgstr "Google翻译"
+
+#. Text in echo
+#: suffusion/widgets/suffusion-query-users.php:247
+msgid "Gravatar size for users displayed in full:"
+msgstr ""
+
+#. Text in echo
+#: suffusion/widgets/suffusion-query-users.php:270
+msgid "Gravatar size for users where only the gravatar is displayed:"
+msgstr ""
+
+#. Text in echo
+#: suffusion/widgets/suffusion-flickr.php:113
+msgid "Group"
+msgstr "分组"
+
+#. Text in function
+#: suffusion/widgets/suffusion-featured-posts.php:255
+msgid "Grow horizontally from center"
+msgstr "从中间开始水平扩张"
+
+#. Text in function
+#: suffusion/widgets/suffusion-featured-posts.php:255
+msgid "Grow vertically from center"
+msgstr "从中间开始垂直扩张"
+
+#. Text in function
+#: suffusion/functions/media.php:1
+msgid "Height"
+msgstr "高度"
+
+#. Text in echo
+#: suffusion/widgets/suffusion-featured-posts.php:151
+msgid "Height of featured content section:"
+msgstr "特色内容部分高度："
+
+#. Text in echo
+#: suffusion/functions/actions.php:922
+msgid "Highlight matching results below"
+msgstr "突出匹配结果"
+
+#. Text in function
+#: suffusion/custom/breadcrumb-page.php:75
+#: suffusion/custom/breadcrumb.php:1
+msgid "Home"
+msgstr ""
+
+#. Text in function
+#: suffusion/widgets/suffusion-featured-posts.php:255
+msgid "Horizontal Blinds"
+msgstr "水平百叶窗效果"
+
+#. Text in function
+#: suffusion/functions/media.php:1
+msgid "ISO"
+msgstr "ISO"
+
+#. Text in echo
+#: suffusion/functions.php:654
+msgid "If this box is checked, clicking on this page in the navigation bar will not take you anywhere."
+msgstr "如果选中该项，点击导航栏上的这个页面将不会有任何变化"
+
+#. Text in echo
+#: suffusion/functions.php:667
+msgid "If this box is checked, this post will show up as a headline in the magazine template."
+msgstr "如果选中该项，本文将在杂志模板中显示为头条"
+
+#. Text in echo
+#: suffusion/functions.php:672
+msgid "If this box is checked, this post will show up as an excerpt in the magazine template."
+msgstr "如果选中该项，本文将在杂志模板中显示为节选"
+
+#. Text in echo
+#: suffusion/widgets/suffusion-featured-posts.php:91
+msgid "If you are including latest posts and you select 5 here, the latest 5 posts will be included in the featured content. If this number is higher than the maximum number of posts, this setting will be ignored"
+msgstr "如果选择显示最近文章，并且选中5篇的话，特色内容中将显示最近5篇文章。如果这个数字超过最大文章数，该设置将被忽略。"
+
+#. Text in function
+#: suffusion/widgets/suffusion-twitter.php:344
+msgid "If you are placing this widget in the \\\"Right Header Widgets\\\":"
+msgstr "如果你把这个工具放在 \\\"右侧页眉小工具中\\\"："
+
+#. Text in function
+#: suffusion/widgets/suffusion-twitter.php:344
+msgid "If you are placing this widget in the sidebars or in \\\"Widget Area below Header\\\" or \\\"Widget Area below Footer\\\":"
+msgstr "如果你把这个工具放在侧边栏或者\\\"页眉以下工具栏区\\\" 或者 \\\"页脚以上工具栏区\\\":"
+
+#. Text in echo
+#: suffusion/widgets/suffusion-query-posts.php:389
+msgid "If you have chosen to use a custom image in the previous option, please enter the complete URL of the category icon here, including http://"
+msgstr "如果你选择在上一个选项中使用自定义图片，请在这里输入分类图标的完整地址，包含http://"
+
+#. Text in function
+#: suffusion/widgets/suffusion-query-posts.php:449
+msgid "Ignore sticky posts"
+msgstr ""
+
+#. Text in function
+#: suffusion/widgets/suffusion-query-posts.php:449
+msgid "Image"
+msgstr ""
+
+#. Text in echo
+#: suffusion/widgets/suffusion-flickr.php:102
+msgid "Image sort order:"
+msgstr "图片分类顺序："
+
+#. Text in echo
+#: suffusion/widgets/suffusion-featured-posts.php:95
+msgid "Include categories:"
+msgstr "包含分类："
+
+#. Text in echo
+#: suffusion/widgets/suffusion-featured-posts.php:77
+msgid "Include latest posts"
+msgstr "包含最近文章"
+
+#. Text in echo
+#: suffusion/widgets/suffusion-featured-posts.php:107
+msgid "Include pages:"
+msgstr "包含页面："
+
+#. Text in echo
+#: suffusion/widgets/suffusion-featured-posts.php:101
+msgid "Include posts:"
+msgstr "包含文章："
+
+#. Text in echo
+#: suffusion/widgets/suffusion-featured-posts.php:72
+msgid "Include sticky posts"
+msgstr "包含置顶文章"
+
+#. Text in echo
+#: suffusion/widgets/suffusion-child-pages.php:213
+#: suffusion/widgets/suffusion-query-users.php:234
+msgid "Include:"
+msgstr ""
+
+#. Text in function
+#: suffusion/widgets/suffusion-query-users.php:431
+msgid "Joining date"
+msgstr ""
+
+#. Text in function
+#: suffusion/widgets/suffusion-child-pages.php:206
+msgid "Last modification time"
+msgstr ""
+
+#. Text in echo
+#: suffusion/widgets/suffusion-flickr.php:104
+msgid "Latest"
+msgstr "最新"
+
+#. Text in function
+#: suffusion/comments.php:87
+msgid "Leave a Reply"
+msgstr "评论"
+
+#. Text in function
+#: suffusion/comments.php:87
+msgid "Leave a Reply to %s"
+msgstr "回复%s"
+
+#. Text in echo
+#: suffusion/functions.php:697
+msgid "Leave the selection to \\\"Default\\\" if you are not sure what this is. You can control individual sidebar widths from <em>Suffusion Options &rarr; Other Graphical Elements &rarr; Sizes and Margins</em> if you have selected \\\"Default\\\" and <em>Suffusion Options &rarr; Templates</em> otherwise"
+msgstr "如果你不明白这个是什么，请将这个选择留为\\\"默认\\\"。您可以控制单独侧边栏的宽度，通过<em>Suffusion选项 &rarr; 其他视图元素 &rarr; 大小和边距</em>，如果你已经选择 \\\"默认\\\" 和 <em>Suffusion 选项 &rarr; 模板</em>。否则"
+
+#. Text in function
+#: suffusion/widgets/suffusion-featured-posts.php:255
+msgid "Left"
+msgstr "左侧"
+
+#. Text in function
+#: suffusion/widgets/suffusion-query-posts.php:449
+msgid "Link"
+msgstr ""
+
+#. Text in echo
+#: suffusion/widgets/suffusion-query-users.php:328
+msgid "Link profile to:"
+msgstr ""
+
+#. Text in echo
+#: suffusion/sidebar.php:58
+#: suffusion/functions.php:1455
+msgid "Links"
+msgstr "链接"
+
+#. Text in function
+#: suffusion/widgets/suffusion-child-pages.php:275
+msgid "List style"
+msgstr ""
+
+#. Text in function
+#: suffusion/functions/shortcodes.php:1
+msgid "Log in"
+msgstr "登录"
+
+#. Text in function
+#: suffusion/widgets/suffusion-meta.php:30
+msgid "Log in/out, admin, feed and WordPress links"
+msgstr "登录/退出，管理，feed和WordPress链接"
+
+#. Text in function
+#: suffusion/functions/shortcodes.php:1
+#: suffusion/comments.php:87
+#: suffusion/login.php:36
+msgid "Log out"
+msgstr "退出"
+
+#. Text in function
+#: suffusion/comments.php:87
+msgid "Logged in as %s. "
+msgstr "登录身份 %s。"
+
+#. Text in echo
+#: suffusion/functions.php:665
+msgid "Make this post a headline"
+msgstr "把该文作为头条"
+
+#. Text in echo
+#: suffusion/functions.php:670
+msgid "Make this post an excerpt in the magazine layout"
+msgstr "把该文章作为杂志布局中的摘要"
+
+#. Text in echo
+#: suffusion/now-reading/single.php:48
+#: suffusion/now-reading/search.php:24
+#: suffusion/now-reading/tag.php:26
+#: suffusion/now-reading/library.php:30
+#: suffusion/now-reading/author.php:26
+msgid "Manage Books"
+msgstr "管理书目"
+
+#. Text in echo
+#: suffusion/widgets/suffusion-featured-posts.php:58
+msgid "Maximum number of posts / pages to display:"
+msgstr "要显示的最大文章/页面数："
+
+#. Text in function
+#: suffusion/widgets/suffusion-child-pages.php:206
+msgid "Menu order"
+msgstr ""
+
+#. Text in echo
+#: suffusion/sidebar.php:69
+#: suffusion/functions.php:1455
+#: suffusion/widgets/suffusion-meta.php:30
+msgid "Meta"
+msgstr "Meta"
+
+#. Text in echo
+#: suffusion/functions.php:713
+msgid "Meta Description"
+msgstr "Meta描述"
+
+#. Text in echo
+#: suffusion/functions.php:717
+msgid "Meta Keywords"
+msgstr "Meta关键词"
+
+#. Text in echo
+#: suffusion/widgets/suffusion-flickr.php:97
+msgid "Mid-Size"
+msgstr "Mid-大小"
+
+#. Text in function
+#: suffusion/widgets/suffusion-query-posts.php:449
+msgid "Modification date"
+msgstr ""
+
+#. Text in function
+#: suffusion/widgets/suffusion-flickr.php:38
+msgid "My Flickr Stream"
+msgstr "我的Flickr Stream"
+
+#. Text in function
+#: suffusion/widgets/suffusion-twitter.php:344
+msgid "My Tweets"
+msgstr "我的Tweets"
+
+#. Text in function
+#: suffusion/functions.php:1455
+msgid "Name"
+msgstr "名称"
+
+#. Text in function
+#: suffusion/custom/pagination-comments.php:77
+msgid "Newer %1$s"
+msgstr "更新 %1$s"
+
+#. Text in function
+#: suffusion/custom/pagination-comments.php:77
+msgid "Newer Comments"
+msgstr "更新评论"
+
+#. Text in function
+#: suffusion/custom/pagination-posts.php:73
+#: suffusion/custom/pagination-posts.php:71
+msgid "Newer Entries"
+msgstr "上一页"
+
+#. Text in function
+#: suffusion/image.php:24
+msgid "Next Image"
+msgstr "下一张图片"
+
+#. Text in function
+#: suffusion/featured-posts.php:1
+#: suffusion/widgets/suffusion-featured-posts.php:255
+msgid "Next Post"
+msgstr "下一篇"
+
+#. Text in function
+#: suffusion/widgets/suffusion-query-users.php:431
+msgid "Nice name"
+msgstr ""
+
+#. Text in function
+#: suffusion/custom/pullout.php:96
+#: suffusion/custom/byline-tile.php:1
+#: suffusion/custom/post-footer.php:65
+#: suffusion/comments.php:23
+#: suffusion/custom/post-header.php:80
+msgid "No Responses"
+msgstr "没有评论"
+
+#. Text in function
+#: suffusion/widgets/suffusion-query-posts.php:449
+msgid "No category icon"
+msgstr "没有分类图标"
+
+#. Text in echo
+#: suffusion/now-reading/single.php:121
+#: suffusion/layouts/template-missing.php:23
+msgid "Not Found"
+msgstr "找不到"
+
+#. Text in function
+#: suffusion/widgets/suffusion-query-users.php:431
+msgid "Nothing"
+msgstr ""
+
+#. Text in echo
+#: suffusion/layouts/template-missing.php:12
+msgid "Nothing Found"
+msgstr "找不到"
+
+#. Text in echo
+#: suffusion/widgets/suffusion-featured-posts.php:81
+msgid "Number of \"Latest Posts\":"
+msgstr " \"最近文章\"数："
+
+#. Text in echo
+#: suffusion/widgets/suffusion-twitter.php:310
+msgid "Number of Tweets to display:"
+msgstr "要显示的Tweets条数："
+
+#. Text in echo
+#: suffusion/widgets/suffusion-child-pages.php:258
+msgid "Number of levels to show (only for list-style display):"
+msgstr ""
+
+#. Text in echo
+#: suffusion/widgets/suffusion-flickr.php:80
+msgid "Number of pictures to display:"
+msgstr "要显示的图片数："
+
+#. Text in echo
+#: suffusion/widgets/suffusion-query-posts.php:235
+msgid "Number of posts to display:"
+msgstr "要显示的文章数："
+
+#. Text in echo
+#: suffusion/widgets/suffusion-child-pages.php:234
+msgid "Number of sub-pages to show:"
+msgstr ""
+
+#. Text in echo
+#: suffusion/widgets/suffusion-query-users.php:311
+msgid "Number of users for whom all details will be displayed:"
+msgstr ""
+
+#. Text in echo
+#: suffusion/widgets/suffusion-query-users.php:295
+msgid "Number of users to display:"
+msgstr ""
+
+#. Text in function
+#: suffusion/custom/pagination-comments.php:77
+msgid "Older %1$s"
+msgstr "更早%1$s"
+
+#. Text in function
+#: suffusion/custom/pagination-comments.php:77
+msgid "Older Comments"
+msgstr "更早评论"
+
+#. Text in function
+#: suffusion/custom/pagination-posts.php:73
+#: suffusion/custom/pagination-posts.php:70
+msgid "Older Entries"
+msgstr "下一页"
+
+#. Text in function
+#: suffusion/comments.php:23
+msgid "One Response"
+msgstr "1条评论"
+
+#. Text in echo
+#: suffusion/widgets/suffusion-query-users.php:323
+msgid "Only Gravatars will be displayed for all other users"
+msgstr ""
+
+#. Text in echo
+#: suffusion/widgets/suffusion-child-pages.php:171
+#: suffusion/widgets/suffusion-query-posts.php:265
+#: suffusion/widgets/suffusion-query-users.php:170
+msgid "Order by:"
+msgstr ""
+
+#. Text in echo
+#: suffusion/widgets/suffusion-child-pages.php:195
+#: suffusion/widgets/suffusion-query-posts.php:248
+#: suffusion/widgets/suffusion-query-users.php:193
+msgid "Order:"
+msgstr ""
+
+#. Text in function
+#: suffusion/custom/pagination-comments.php:49
+#: suffusion/custom/pagination-posts.php:46
+msgid "Page %1$s of %2$s"
+msgstr "%2$s页中的第%1$s页"
+
+#. Text in function
+#: suffusion/functions/actions.php:1264
+msgid "Page %s"
+msgstr "页面 %s"
+
+#. Text in function
+#: suffusion/widgets/suffusion-child-pages.php:206
+msgid "Page ID"
+msgstr ""
+
+#. Text in echo
+#: suffusion/functions.php:647
+msgid "Page Title in Dropdown Menu"
+msgstr "下拉菜单的页面标题"
+
+#. Text in function
+#: suffusion/functions.php:1455
+msgid "Pages"
+msgstr "页面"
+
+#. Text in function
+#: suffusion/functions/filters.php:1
+msgid "Pages:"
+msgstr "页面："
+
+#. Text in function
+#: suffusion/featured-posts.php:1
+#: suffusion/functions/actions.php:1264
+#: suffusion/widgets/suffusion-featured-posts.php:255
+msgid "Pause"
+msgstr "暂停"
+
+#. Text in function
+#: suffusion/custom/pullout.php:96
+#: suffusion/custom/byline-tile.php:1
+#: suffusion/custom/post-footer.php:79
+#: suffusion/custom/post-header.php:154
+msgid "Permalink"
+msgstr "固定链接"
+
+#. Text in function
+#: suffusion/functions.php:1455
+msgid "Pingbacks"
+msgstr "Pingbacks"
+
+#. Text in echo
+#: suffusion/layouts/template-missing.php:14
+msgid "Please try another search."
+msgstr "请再次搜索"
+
+#. Text in function
+#: suffusion/widgets/suffusion-query-posts.php:449
+msgid "Popularity (comment count)"
+msgstr ""
+
+#. Text in echo
+#: suffusion/widgets/suffusion-featured-posts.php:189
+msgid "Position of the excerpt:"
+msgstr "摘要位置"
+
+#. Text in function
+#: suffusion/widgets/suffusion-query-posts.php:449
+msgid "Post author"
+msgstr ""
+
+#. Text in function
+#: suffusion/widgets/suffusion-child-pages.php:206
+msgid "Post author ID"
+msgstr ""
+
+#. Text in function
+#: suffusion/widgets/suffusion-query-users.php:431
+msgid "Post count"
+msgstr ""
+
+#. Text in echo
+#: suffusion/widgets/suffusion-child-pages.php:240
+#: suffusion/widgets/suffusion-query-posts.php:287
+msgid "Post display style:"
+msgstr "文章显示风格："
+
+#. Text in echo
+#: suffusion/widgets/suffusion-child-pages.php:293
+#: suffusion/widgets/suffusion-query-posts.php:325
+msgid "Post excerpt length (if applicable):"
+msgstr "文章摘要长度（如果可应用）："
+
+#. Text in echo
+#: suffusion/widgets/suffusion-query-posts.php:423
+msgid "Post formats to include:"
+msgstr ""
+
+#. Text in function
+#: suffusion/widgets/suffusion-query-posts.php:449
+msgid "Post id"
+msgstr ""
+
+#. Text in function
+#: suffusion/widgets/suffusion-child-pages.php:206
+msgid "Post slug"
+msgstr ""
+
+#. Text in echo
+#: suffusion/widgets/suffusion-child-pages.php:273
+#: suffusion/widgets/suffusion-query-posts.php:305
+msgid "Post thumbnail size (if applicable):"
+msgstr "文章缩略图大小（如果可应用）："
+
+#. Text in function
+#: suffusion/widgets/suffusion-child-pages.php:206
+#: suffusion/widgets/suffusion-query-posts.php:449
+msgid "Post title"
+msgstr ""
+
+#. Text in function
+#: suffusion/functions/actions.php:737
+msgid "Posted by %1$s"
+msgstr "%1$s发表"
+
+#. Text in function
+#: suffusion/functions/actions.php:737
+msgid "Posted by %1$s at %2$s"
+msgstr "%1$s 发表于 %2$s"
+
+#. Text in function
+#: suffusion/functions/actions.php:737
+msgid "Posted by %1$s at %2$s on %3$s"
+msgstr "%1$s 发表于 %3$s %2$s"
+
+#. Text in function
+#: suffusion/functions/actions.php:737
+msgid "Posted by %1$s on %2$s"
+msgstr "%1$s 发表于%2$s"
+
+#. Text in function
+#: suffusion/functions/actions.php:737
+msgid "Posted by %1$s on %2$s at %3$s"
+msgstr "%1$s 发表于%2$s %3$s "
+
+#. Text in echo
+#: suffusion/widgets/suffusion-query-posts.php:365
+msgid "Posts from the selected category will show in the widget"
+msgstr "选中分类的文章将显示在该工具中"
+
+#. Text in function
+#: suffusion/image.php:23
+msgid "Previous Image"
+msgstr "上一张图片"
+
+#. Text in function
+#: suffusion/featured-posts.php:1
+#: suffusion/widgets/suffusion-featured-posts.php:255
+msgid "Previous Post"
+msgstr "上一篇"
+
+#. Text in function
+#: suffusion/widgets/suffusion-query-posts.php:449
+msgid "Query Posts"
+msgstr ""
+
+#. Text in function
+#: suffusion/widgets/suffusion-query-users.php:438
+msgid "Query Users"
+msgstr ""
+
+#. Text in function
+#: suffusion/widgets/suffusion-query-posts.php:449
+msgid "Quote"
+msgstr ""
+
+#. Text in function
+#: suffusion/categories.php:55
+msgid "RSS"
+msgstr "RSS"
+
+#. Text in echo
+#: suffusion/widgets/suffusion-flickr.php:105
+#: suffusion/widgets/suffusion-query-posts.php:449
+msgid "Random"
+msgstr "随机"
+
+#. Text in function
+#: suffusion/functions.php:1455
+msgid "Recent Comments"
+msgstr "最新评论"
+
+#. Text in function
+#: suffusion/functions.php:1455
+msgid "Recent Posts"
+msgstr "最新文章"
+
+#. Text in function
+#: suffusion/widgets/suffusion-twitter.php:344
+msgid "Recommended settings:"
+msgstr "推荐设置："
+
+#. Text in echo
+#: suffusion/widgets/suffusion-twitter.php:340
+msgid "Recommended sizes: 32px if the widget is being added to the \\\"Right Header Widgets\\\" area, whatever you like otherwise. Note that making the image too large will cause loss of picture quality."
+msgstr "推荐大小：32像素（如果该工具可以添加至\\\"页面右侧工具栏\\\" 区域，或者自选。注意，图片太大将影响图片质量。"
+
+#. Text in function
+#: suffusion/functions/shortcodes.php:1
+msgid "Register"
+msgstr "注册"
+
+#. Text in function
+#: suffusion/custom/byline-tile.php:1
+msgid "Responses"
+msgstr "评论"
+
+#. Text in function
+#: suffusion/functions/actions.php:1264
+msgid "Resume"
+msgstr "重新开始"
+
+#. Text in function
+#: suffusion/widgets/suffusion-featured-posts.php:255
+msgid "Right"
+msgstr "右侧"
+
+#. Text in function
+#: suffusion/widgets/suffusion-featured-posts.php:255
+msgid "Rotate between the four positions"
+msgstr "在四个位置之间切换"
+
+#. Text in function
+#: suffusion/widgets/suffusion-featured-posts.php:255
+msgid "Scroll Down"
+msgstr "下滚"
+
+#. Text in function
+#: suffusion/widgets/suffusion-featured-posts.php:255
+msgid "Scroll Horizontally"
+msgstr "水平滚动"
+
+#. Text in function
+#: suffusion/widgets/suffusion-featured-posts.php:255
+msgid "Scroll Left"
+msgstr "左滚"
+
+#. Text in function
+#: suffusion/widgets/suffusion-featured-posts.php:255
+msgid "Scroll Right"
+msgstr "右滚"
+
+#. Text in function
+#: suffusion/widgets/suffusion-featured-posts.php:255
+msgid "Scroll Up"
+msgstr "上滚"
+
+#. Text in function
+#: suffusion/widgets/suffusion-featured-posts.php:255
+msgid "Scroll Vertically"
+msgstr "垂直滚动"
+
+#. Text in echo
+#: suffusion/searchform.php:11
+#: suffusion/functions.php:1455
+#: suffusion/widgets/suffusion-search.php:53
+msgid "Search"
+msgstr "搜索"
+
+#. Text in function
+#: suffusion/sidebar-tabs.php:180
+msgid "Select"
+msgstr "选择"
+
+#. Text in echo
+#: suffusion/widgets/suffusion-query-posts.php:355
+msgid "Select category to show:"
+msgstr "选择要显示的分类："
+
+#. Text in echo
+#: suffusion/functions.php:675
+msgid "Select the sidebar layout to apply to this post"
+msgstr "选择侧边栏布局来应用到这篇文章"
+
+#. Text in function
+#: suffusion/widgets/suffusion-subscription.php:140
+msgid "Select your %1$s icon"
+msgstr "选择你的 %1$s 图标"
+
+#. Text in echo
+#: suffusion/widgets/suffusion-twitter.php:325
+msgid "Select your Twitter icon:"
+msgstr "选择你的Twitter图标："
+
+#. Text in echo
+#: suffusion/widgets/suffusion-subscription.php:153
+msgid "Select your icon size"
+msgstr "选择图标大小"
+
+#. Text in echo
+#: suffusion/widgets/suffusion-twitter.php:336
+msgid "Set the height for the Twitter icon:"
+msgstr "设定Twitter图标高度："
+
+#. Text in echo
+#: suffusion/widgets/suffusion-query-posts.php:393
+msgid "Set the height for the category icon:"
+msgstr "设定分类图标高度："
+
+#. Text in echo
+#: suffusion/widgets/suffusion-query-posts.php:401
+msgid "Set the width for the category icon:"
+msgstr "设定分类图标宽度："
+
+#. Text in function
+#: suffusion/widgets/suffusion-subscription.php:107
+msgid "Show %1$s icon"
+msgstr "显示 %1$s 图标"
+
+#. Text in echo
+#: suffusion/widgets/suffusion-subscription.php:80
+msgid "Show Email Subscription"
+msgstr "显示邮件订阅"
+
+#. Text in echo
+#: suffusion/widgets/suffusion-subscription.php:98
+msgid "Show FeedBurner reader count"
+msgstr "显示FeedBurner读者数"
+
+#. Text in echo
+#: suffusion/widgets/suffusion-featured-posts.php:232
+msgid "Show Previous, Pause and Next buttons"
+msgstr "显示上一篇、暂停、下一篇按钮"
+
+#. Text in echo
+#: suffusion/widgets/suffusion-twitter.php:283
+msgid "Show Twitter Icon"
+msgstr "显示Twitter图标"
+
+#. Text in echo
+#: suffusion/widgets/suffusion-twitter.php:289
+msgid "Show a Tagline"
+msgstr "显示标签行"
+
+#. Text in echo
+#: suffusion/widgets/suffusion-featured-posts.php:227
+msgid "Show a numbered post index"
+msgstr "显示已编号文章索引"
+
+#. Text in echo
+#: suffusion/widgets/suffusion-child-pages.php:165
+msgid "Show empty widget if no sub-pages are found."
+msgstr ""
+
+#. Text in echo
+#: suffusion/widgets/suffusion-query-users.php:164
+msgid "Show empty widget if no users are found."
+msgstr ""
+
+#. Text in function
+#: suffusion/widgets/suffusion-featured-posts.php:255
+msgid "Show excerpt only (no title)"
+msgstr "只显示摘录（无标题）"
+
+#. Text in function
+#: suffusion/widgets/suffusion-twitter.php:344
+msgid "Show feeds"
+msgstr "显示feeds"
+
+#. Text in function
+#: suffusion/widgets/suffusion-query-users.php:431
+msgid "Show for Gravatar displays"
+msgstr ""
+
+#. Text in function
+#: suffusion/widgets/suffusion-query-users.php:431
+msgid "Show for both full and Gravatar displays"
+msgstr ""
+
+#. Text in function
+#: suffusion/widgets/suffusion-query-users.php:431
+msgid "Show for full displays"
+msgstr ""
+
+#. Text in function
+#: suffusion/widgets/suffusion-twitter.php:344
+msgid "Show icon"
+msgstr "显示图标"
+
+#. Text in echo
+#: suffusion/widgets/suffusion-twitter.php:295
+msgid "Show my Tweets"
+msgstr "显示我的Tweets"
+
+#. Text in echo
+#: suffusion/widgets/suffusion-query-users.php:418
+msgid "Show post count:"
+msgstr ""
+
+#. Text in function
+#: suffusion/widgets/suffusion-featured-posts.php:255
+msgid "Show post title and excerpt"
+msgstr "显示文章标题和摘要"
+
+#. Text in function
+#: suffusion/widgets/suffusion-featured-posts.php:255
+msgid "Show post title only (no excerpt)"
+msgstr "仅显示文章标题（无摘要）"
+
+#. Text in echo
+#: suffusion/widgets/suffusion-query-posts.php:417
+msgid "Show posts with these ids:"
+msgstr ""
+
+#. Text in echo
+#: suffusion/widgets/suffusion-query-posts.php:411
+msgid "Show posts with these tags:"
+msgstr ""
+
+#. Text in function
+#: suffusion/widgets/suffusion-query-posts.php:449
+msgid "Show sticky posts and other posts"
+msgstr ""
+
+#. Text in function
+#: suffusion/widgets/suffusion-query-posts.php:449
+msgid "Show sticky posts only (ignore the others)"
+msgstr ""
+
+#. Text in function
+#: suffusion/widgets/suffusion-twitter.php:344
+msgid "Show tagline"
+msgstr "显示标签行"
+
+#. Text in echo
+#: suffusion/widgets/suffusion-query-users.php:348
+msgid "Show user description:"
+msgstr ""
+
+#. Text in function
+#: suffusion/functions/media.php:1
+msgid "Shutter Speed"
+msgstr "快门速度"
+
+#. Text in function
+#: suffusion/functions.php:1455
+msgid "Single Left - Will inherit settings of the \\\"Single Left Sidebar\\\" template"
+msgstr "单左 - 将要承接\\\"单左侧边栏\\\"模板的设置"
+
+#. Text in function
+#: suffusion/functions.php:1455
+msgid "Single Left, Single Right - Will inherit settings of the \\\"Single Left and Single Right Sidebar\\\" template"
+msgstr "单左，单右 - 将要承接\\\"单左和单右侧边栏\\\"模板的设置"
+
+#. Text in function
+#: suffusion/functions.php:1455
+msgid "Single Right - Will inherit settings of the \\\"Single Right Sidebar\\\" template"
+msgstr "单右 - 将要承接\\\"单右侧边栏\\\"模板的设置"
+
+#. Text in function
+#: suffusion/functions/shortcodes.php:1
+msgid "Site Admin"
+msgstr "站点管理"
+
+#. Text in echo
+#: suffusion/widgets/suffusion-flickr.php:93
+msgid "Size:"
+msgstr "大小"
+
+#. Text in function
+#: suffusion/widgets/suffusion-featured-posts.php:255
+msgid "Slide in and back horizontally"
+msgstr "水平滑动"
+
+#. Text in function
+#: suffusion/widgets/suffusion-featured-posts.php:255
+msgid "Slide in and back vertically"
+msgstr "垂直滑动"
+
+#. Text in echo
+#: suffusion/now-reading/single.php:123
+#: suffusion/layouts/template-missing.php:25
+msgid "Sorry, but you are looking for something that isn't here"
+msgstr "对不起，这里没有你要找的东西"
+
+#. Text in echo
+#: suffusion/attachment.php:39
+#: suffusion/image.php:43
+#: suffusion/single.php:64
+msgid "Sorry, no posts matched your criteria."
+msgstr "对不起，没有满足您要求的文章。"
+
+#. Text in echo
+#: suffusion/comments.php:86
+msgid "Sorry, the comment form is closed at this time."
+msgstr "对不起，评论已关闭。"
+
+#. Text in function
+#: suffusion/functions.php:1455
+msgid "Sorry, the page that you are looking for does not exist."
+msgstr "对不起，你找的页面不存在。"
+
+#. Text in echo
+#: suffusion/widgets/suffusion-translator.php:116
+msgid "Source Language:"
+msgstr "源语言："
+
+#. Text in echo
+#: suffusion/widgets/suffusion-flickr.php:95
+msgid "Square"
+msgstr "正方形"
+
+#. Text in function
+#: suffusion/widgets/suffusion-featured-posts.php:255
+msgid "Squeeze in both edges horizontally"
+msgstr "两边水平压缩"
+
+#. Text in function
+#: suffusion/widgets/suffusion-featured-posts.php:255
+msgid "Squeeze in both edges vertically"
+msgstr "两边垂直压缩"
+
+#. Text in function
+#: suffusion/widgets/suffusion-query-posts.php:449
+msgid "Status"
+msgstr ""
+
+#. Text in echo
+#: suffusion/widgets/suffusion-query-posts.php:338
+msgid "Sticky Posts:"
+msgstr ""
+
+#. Text in function
+#: suffusion/comments.php:87
+msgid "Submit Comment"
+msgstr "提交评论"
+
+#. Text in function
+#: suffusion/widgets/suffusion-subscription.php:252
+msgid "Subscribe"
+msgstr "订阅"
+
+#. Text in function
+#: suffusion/widgets/suffusion-query-users.php:431
+msgid "Subscribers"
+msgstr ""
+
+#. Text in function
+#: suffusion/sidebar-tabs.php:63
+#: suffusion/widgets/suffusion-meta.php:26
+msgid "Syndicate this site using RSS 2.0"
+msgstr "使用RSS 2.0聚合本站"
+
+#. Text in function
+#: suffusion/functions.php:1455
+msgid "Tag Cloud"
+msgstr "标签云"
+
+#. Text in echo
+#: suffusion/now-reading/single.php:110
+#: suffusion/custom/pullout.php:96
+#: suffusion/custom/byline-tile.php:1
+#: suffusion/custom/post-footer.php:78
+#: suffusion/custom/post-header.php:91
+msgid "Tagged with: "
+msgstr "标签："
+
+#. Text in echo
+#: suffusion/widgets/suffusion-twitter.php:305
+msgid "Tagline:"
+msgstr "标签行："
+
+#. Text in function
+#: suffusion/custom/byline-tile.php:1
+msgid "Tags"
+msgstr "标签"
+
+#. Text in echo
+#: suffusion/widgets/suffusion-featured-posts.php:174
+msgid "Text display options:"
+msgstr "文本显示选项："
+
+#. Text in echo
+#: suffusion/widgets/suffusion-query-posts.php:330
+msgid "Text for \"All Posts\":"
+msgstr "\"所有文章\"文本"
+
+#. Text in echo
+#: suffusion/widgets/suffusion-featured-posts.php:250
+msgid "Text for \"Next Post\":"
+msgstr "\"下一篇\"文本："
+
+#. Text in echo
+#: suffusion/widgets/suffusion-featured-posts.php:245
+msgid "Text for \"Pause\":"
+msgstr " \"暂停\"文本："
+
+#. Text in echo
+#: suffusion/widgets/suffusion-featured-posts.php:240
+msgid "Text for \"Previous Post\":"
+msgstr "\"上一篇\"文本："
+
+#. Text in echo
+#: suffusion/widgets/suffusion-featured-posts.php:236
+msgid "The following three settings only apply if you show the previous, pause and next buttons:"
+msgstr "只有在显示上一篇、暂停、下一篇按钮时以下三个设置才会生效："
+
+#. Text in echo
+#: suffusion/widgets/suffusion-query-posts.php:397
+msgid "The image you have picked will be scaled to this height."
+msgstr "你选择的图片将被调整为这个高度。"
+
+#. Text in echo
+#: suffusion/widgets/suffusion-query-posts.php:405
+msgid "The image you have picked will be scaled to this width."
+msgstr "你选择的图片将被调整为这个宽度。"
+
+#. Text in function
+#: suffusion/sidebar-tabs.php:64
+#: suffusion/widgets/suffusion-meta.php:27
+msgid "The latest comments to all posts in RSS"
+msgstr "RSS中所有文章的最近评论"
+
+#. Text in echo
+#: suffusion/widgets/suffusion-query-posts.php:332
+msgid "The text you enter here will be the displayed in the button for \\\"All Posts\\\". If you leave this field blank the button will not be shown."
+msgstr "在此输入的文本将显示在 \\\"所有文章\\\"按钮上。如果留空将不显示按钮。"
+
+#. Text in echo
+#: suffusion/widgets/suffusion-featured-posts.php:170
+msgid "This is applicable only if custom image size is enabled"
+msgstr "只有激活自定义图片大小后才会生效"
+
+#. Text in echo
+#: suffusion/widgets/suffusion-featured-posts.php:207
+msgid "This is only applicable if your excerpt is at the right or at the left of your featured posts."
+msgstr "只有摘要出现在特色文章两侧时才会生效。"
+
+#. Text in echo
+#: suffusion/widgets/suffusion-twitter.php:278
+msgid "This is the user who will be followed"
+msgstr "将被关注的用户"
+
+#. Text in echo
+#: suffusion/comments.php:12
+msgid "This post is password protected. Enter the password to view comments."
+msgstr "本文已加密。请输入密码查看评论。"
+
+#. Text in echo
+#: suffusion/functions.php:649
+msgid "This text will be shown in the drop-down menus in the navigation bar. If left blank, the title of the page is used."
+msgstr "这些文字将显示在导航栏的下拉菜单中。留空则使用页面标题。"
+
+#. Text in echo
+#: suffusion/widgets/suffusion-subscription.php:87
+msgid "This text will be shown in the subscription box by default. When the visitor starts entering the email address the text will disappear."
+msgstr "这些文字默认显示在订阅框中。当访客开始输入邮件地址时这些文字将消失。"
+
+#. Text in echo
+#: suffusion/widgets/suffusion-subscription.php:93
+msgid "This text will be shown in the subscription button near the email field"
+msgstr "这些文字将显示在邮件附近的订阅按钮旁"
+
+#. Text in function
+#: suffusion/widgets/suffusion-subscription.php:252
+msgid "This widget lets visitors of your blog subscribe to it and follow you on popular social networks like Digg, FaceBook etc. Additionally they can subscribe to your blog by email, for which you need a FeedBurner account."
+msgstr "这个工具可以让你的读者订阅你的博客，然后在Digg、Facebook等社交网站上关注你。此外，读者还可以通关过邮件订阅你的博客（需要一个FeedBurner账户）。"
+
+#. Text in echo
+#: suffusion/widgets/suffusion-flickr.php:96
+#: suffusion/functions.php:703
+msgid "Thumbnail"
+msgstr "缩略图"
+
+#. Text in function
+#: suffusion/widgets/suffusion-child-pages.php:275
+#: suffusion/widgets/suffusion-query-posts.php:307
+msgid "Thumbnail and title"
+msgstr "缩略图和标题"
+
+#. Text in function
+#: suffusion/widgets/suffusion-child-pages.php:275
+#: suffusion/widgets/suffusion-query-posts.php:307
+msgid "Thumbnail, title and excerpt"
+msgstr "缩略图，标题和摘要"
+
+#. Text in echo
+#: suffusion/widgets/suffusion-featured-posts.php:137
+#: suffusion/widgets/suffusion-featured-posts.php:143
+msgid "Time for each post display:"
+msgstr "文章显示的时间："
+
+#. Text in function
+#: suffusion/functions/media.php:1
+msgid "Title"
+msgstr "标题"
+
+#. Text in echo
+#: suffusion/widgets/suffusion-flickr.php:70
+#: suffusion/widgets/suffusion-child-pages.php:157
+#: suffusion/widgets/suffusion-translator.php:111
+#: suffusion/widgets/suffusion-query-posts.php:229
+#: suffusion/widgets/suffusion-twitter.php:300
+#: suffusion/widgets/suffusion-search.php:49
+#: suffusion/widgets/suffusion-featured-posts.php:53
+#: suffusion/widgets/suffusion-subscription.php:68
+#: suffusion/widgets/suffusion-query-users.php:157
+msgid "Title:"
+msgstr "标题："
+
+#. Text in function
+#: suffusion/widgets/suffusion-featured-posts.php:255
+msgid "Top"
+msgstr "顶部"
+
+#. Text in function
+#: suffusion/functions.php:1455
+msgid "Trackbacks"
+msgstr "Trackbacks"
+
+#. Text in function
+#: suffusion/widgets/suffusion-translator.php:125
+msgid "Translate this Page"
+msgstr "翻译本页"
+
+#. Text in function
+#: suffusion/widgets/suffusion-featured-posts.php:255
+msgid "Turn Downwards"
+msgstr "下翻"
+
+#. Text in function
+#: suffusion/widgets/suffusion-featured-posts.php:255
+msgid "Turn Leftwards"
+msgstr "左翻"
+
+#. Text in function
+#: suffusion/widgets/suffusion-featured-posts.php:255
+msgid "Turn Rightwards"
+msgstr "右翻"
+
+#. Text in function
+#: suffusion/widgets/suffusion-featured-posts.php:255
+msgid "Turn Upwards"
+msgstr "上翻"
+
+#. Text in function
+#: suffusion/widgets/suffusion-twitter.php:344
+msgid "Twitter"
+msgstr "Twitter"
+
+#. Text in echo
+#: suffusion/widgets/suffusion-query-users.php:212
+msgid "Type of users to display:"
+msgstr ""
+
+#. Text in echo
+#: suffusion/widgets/suffusion-flickr.php:110
+msgid "Type:"
+msgstr "类型："
+
+#. Text in function
+#: suffusion/functions.php:1455
+msgid "URI"
+msgstr "URI"
+
+#. Text in function
+#: suffusion/widgets/suffusion-query-users.php:431
+msgid "URL"
+msgstr ""
+
+#. Text in function
+#: suffusion/widgets/suffusion-query-posts.php:307
+msgid "Underline upon hover (sidebar-style)"
+msgstr "悬浮显示下划线（侧边栏风格）"
+
+#. Text in function
+#: suffusion/widgets/suffusion-query-posts.php:449
+msgid "Use Category Icons Plugin"
+msgstr "使用分类图标插件"
+
+#. Text in function
+#: suffusion/widgets/suffusion-query-posts.php:449
+msgid "Use custom image"
+msgstr "使用自定义图片"
+
+#. Text in echo
+#: suffusion/widgets/suffusion-flickr.php:112
+msgid "User"
+msgstr "用户"
+
+#. Text in echo
+#: suffusion/widgets/suffusion-query-users.php:369
+msgid "User description format:"
+msgstr ""
+
+#. Text in function
+#: suffusion/widgets/suffusion-query-users.php:431
+msgid "User profile (BuddyPress only)"
+msgstr ""
+
+#. Text in function
+#: suffusion/widgets/suffusion-query-users.php:431
+msgid "User profile + Custom description"
+msgstr ""
+
+#. Text in echo
+#: suffusion/widgets/suffusion-twitter.php:276
+msgid "User:"
+msgstr "用户："
+
+#. Text in function
+#: suffusion/widgets/suffusion-featured-posts.php:255
+msgid "Vertical Blinds"
+msgstr "垂直百叶效果"
+
+#. Text in function
+#: suffusion/widgets/suffusion-query-posts.php:449
+msgid "Video"
+msgstr ""
+
+#. Text in echo
+#: suffusion/widgets/suffusion-translator.php:122
+msgid "What language is your page in?"
+msgstr "你页面是什么语言？"
+
+#. Text in function
+#: suffusion/functions/media.php:1
+msgid "Width"
+msgstr "宽度"
+
+#. Text in echo
+#: suffusion/widgets/suffusion-featured-posts.php:205
+msgid "Width of excerpt section:"
+msgstr "节选部分宽度："
+
+#. Text in echo
+#: suffusion/widgets/suffusion-subscription.php:81
+msgid "Will show a text box for visitors to enter an email address for subscription"
+msgstr "将显示一个文本框，让读者输入订阅邮件地址"
+
+#. Text in echo
+#: suffusion/widgets/suffusion-twitter.php:284
+msgid "Will show the selected Twitter icon"
+msgstr "将显示所选Twitter图标"
+
+#. Text in echo
+#: suffusion/widgets/suffusion-twitter.php:290
+msgid "Will show up near the Twitter icon"
+msgstr "将显示在Twitter图标附近"
+
+#. Text in echo
+#: suffusion/widgets/suffusion-twitter.php:296
+msgid "Will show your latest tweets"
+msgstr "将显示最近tweets"
+
+#. Text in function
+#: suffusion/widgets/suffusion-featured-posts.php:255
+msgid "Wipe"
+msgstr "清除"
+
+#. Text in function
+#: suffusion/custom/breadcrumb.php:1
+msgid "Y"
+msgstr ""
+
+#. Text in function
+#: suffusion/login.php:62
+msgid "You are currently logged in as <a href=\"%1$s\" title=\"%2$s\">%2$s</a>."
+msgstr "您当前登录身份为 <a href=\"%1$s\" title=\"%2$s\">%2$s</a>."
+
+#. Text in echo
+#: suffusion/widgets/suffusion-query-posts.php:383
+msgid "You can choose to display an icon for the category based on the Category Icons plugin, or a custom image"
+msgstr "你可以根据分类图标插件为分类选择一个显示图标，或者一张自定义图片"
+
+#. Text in echo
+#: suffusion/widgets/suffusion-child-pages.php:159
+msgid "You can use shortcodes here, such as [suffusion-the-post display='title'] to display the title of the current page."
+msgstr ""
+
+#. Text in echo
+#: suffusion/widgets/suffusion-query-posts.php:231
+msgid "You can use shortcodes here."
+msgstr ""
+
+#. Text in function
+#: suffusion/login.php:62
+msgid "You have successfully logged in as <a href=\"%1$s\" title=\"%2$s\">%2$s</a>."
+msgstr "您已成功登录为 <a href=\"%1$s\" title=\"%2$s\">%2$s</a>."
+
+#. Text in function
+#: suffusion/comments.php:87
+msgid "You may use these <abbr title=\"HyperText Markup Language\">HTML</abbr> tags and attributes: %s"
+msgstr "您可以使用这些 <abbr title=\"HyperText Markup Language\">HTML</abbr> 标签和属性： %s"
+
+#. Text in function
+#: suffusion/comments.php:87
+msgid "You must be logged in to post a comment."
+msgstr "登录后才可以发布评论"
+
+#. Text in function
+#: suffusion/functions.php:1455
+msgid "Your Comment"
+msgstr "您的评论"
+
+#. Text in echo
+#: suffusion/comment.php:29
+msgid "Your comment is awaiting moderation."
+msgstr "您的评论在等待审查"
+
+#. Text in function
+#: suffusion/widgets/suffusion-featured-posts.php:255
+msgid "Zoom"
+msgstr "缩放"
+
+#. Text in function
+#: suffusion/widgets/suffusion-featured-posts.php:255
+msgid "Zoom and Fade"
+msgstr "缩放和渐变"
+
+#. Text in function
+#: suffusion/custom/breadcrumb.php:1
+msgid "j"
+msgstr ""
+
+#. Text in function
+#: suffusion/widgets/suffusion-subscription.php:252
+msgid "your-feed-name"
+msgstr "您的feed名称"
+
+#. Text in function
+#: suffusion/widgets/suffusion-flickr.php:38
+msgid "your-id"
+msgstr "您的用户名"
+
+#. Text in function
+#: suffusion/widgets/suffusion-twitter.php:344
+msgid "your-user-name"
+msgstr "您的用户名"
+

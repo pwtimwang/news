@@ -1,0 +1,15 @@
+---- wp-settings.php Matches (10 in 8 files) ----
+PgCacheAdmin.php (wp-content\plugins\w3-total-cache\lib\w3\plugin):                $error = sprintf('<strong>%swp-config.php</strong> could not be written, please edit config and add:<br /><strong style="color:#f00;">define(\'WP_CACHE\', true);</strong> before <strong style="color:#f00;">require_once(ABSPATH . \'wp-settings.php\');</strong><br />then %s.', ABSPATH, $reactivate_button);
+Public_html0908.phpproj:    "wp-settings.php"
+Setup-config.php (wp-admin):if (file_exists(ABSPATH . '../wp-config.php') && ! file_exists(ABSPATH . '../wp-settings.php'))
+TotalCacheAdmin.php (wp-content\plugins\w3-total-cache\lib\w3\plugin):            'enable_cookie_domain' => sprintf('<strong>%swp-config.php</strong> could not be written, please edit config and add:<br /><strong style="color:#f00;">define(\'COOKIE_DOMAIN\', \'%s\');</strong> before <strong style="color:#f00;">require_once(ABSPATH . \'wp-settings.php\');</strong>.', ABSPATH, addslashes($cookie_domain)),
+TotalCacheAdmin.php (wp-content\plugins\w3-total-cache\lib\w3\plugin):            'disable_cookie_domain' => sprintf('<strong>%swp-config.php</strong> could not be written, please edit config and add:<br /><strong style="color:#f00;">define(\'COOKIE_DOMAIN\', false);</strong> before <strong style="color:#f00;">require_once(ABSPATH . \'wp-settings.php\');</strong>.', ABSPATH),
+Wp-config-sample.php:require_once(ABSPATH . 'wp-settings.php');
+Wp-config.php:require_once(ABSPATH . 'wp-settings.php');
+Wp-load.php: * file will then load the wp-settings.php file, which
+Wp-load.php:} elseif ( file_exists( dirname(ABSPATH) . '/wp-config.php' ) && ! file_exists( dirname(ABSPATH) . '/wp-settings.php' ) ) {
+Wp-settings.php:// Disable magic quotes at runtime. Magic quotes are added using wpdb later in wp-settings.php.
+---- wp-settings.php Search Errors Encountered (2) ----
+The following 2 files could not be processed:
+E:\Documents\staruperi\website\chuangyeyao20120908\srv\www\startuperi\public_html\wordpress.IAB : File could not be opened.
+E:\Documents\staruperi\website\chuangyeyao20120908\srv\www\startuperi\public_html\wordpress.IMB : File could not be opened.
