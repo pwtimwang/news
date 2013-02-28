@@ -55,6 +55,8 @@ add_action( 'wp_ajax_prologue_latest_posts', 'prologue_latest_posts' ); // Load 
 add_action( 'wp_ajax_nopriv_prologue_latest_posts', 'prologue_latest_posts' ); // Load new posts 
 //add_action( 'wp_ajax_nopriv_prologue_latest_posts_sidebar', 'prologue_latest_posts_sidebar' ); // Load new posts 
 
+//add_action( 'wp_ajax_nopriv_prologue_latest_posts_sidebar1', 'prologue_latest_posts_sidebar1' ); // Load new posts 
+
 
 add_action( 'wp_ajax_prologue_latest_comments', 'prologue_latest_comments' ); //check for new comments and loads comments into widget
 
@@ -2874,6 +2876,92 @@ function prologue_latest_posts_sidebar() {
 
 }
 
+
+function prologue_latest_posts_sidebar1() {
+
+	global $the_posts;
+	//$wp_query->posts
+	global $post;
+	
+	$load_time = $_GET['load_time'];
+
+	$frontpage = $_GET['frontpage'];
+
+	$num_posts = 10; //max amount of posts to load
+
+	$number_of_new_posts = 0;
+
+	$prologue_query = new WP_Query('showposts=' . $num_posts . '&post_status=publish');
+
+	ob_start();
+
+	while ($prologue_query->have_posts()) : $prologue_query->the_post();
+
+	    $current_user_id = get_the_author_ID( );
+
+		$postdate = get_gmt_from_date( get_the_time( 'Y-m-d H:i:s' ) );
+		if (  $postdate <=  $load_time ) continue;
+		//if ( get_the_time( 'Y-m-d H:i:s' ) <=  $load_time ) continue;
+
+		$number_of_new_posts++;
+
+		if ( $frontpage ) {
+
+?>
+
+<li id="prologue-<?php the_ID(); ?>" class="newupdates user_id_<?php the_author_ID( ); ?>">
+
+<div class="weiboShow_mainFeed_list clearfix" style="height:68px">
+<div class="weiboShow_mainFeed_list_wrap clearfix" >
+<div style="width:60px;height:60px;display:block;float:left;">
+	<div style="display:block;float:left;width:50px">
+		<div style="display:block;height:20px;text-align: center;background-color:#666460;color:white;padding-top:6px"><?php echo  get_the_time( 'H:i' ); ?></div>
+		<div style="display:block;height:30px;text-align: center;background-color:#F3F4F4;padding-top:10px"><span style="font-weight: bold;font-size: 20px;"><?php echo  get_the_time( 'd' ); ?></span>/<?php echo  get_the_time( 'm' )%12; ?>月</div>
+	</div>
+	<div style="border:5px solid #fff; height:0px; width:0px; overflow:hidden; border-left-color:#666460;margin-top:6px" ></div>
+
+</div>
+	<div class="weiboShow_mainFeed_listContent" style="float:left;width: 600px;min-height: 50px;">
+		<?php $screen = get_post_meta($post->ID, 'screen', $single = true); ?>
+		<p class="weiboShow_mainFeed_listContent_txt">
+
+		<a href="<?php the_permalink( ); ?>" class="thepermalink" style="color:#343535;font-weight:bold"><?php echo ($post->post_title); ?> </a> 
+</p>
+
+		<p><?php echo mb_substr(strip_tags($post->post_content),0,90,'UTF8'); ?>......</p>
+</div>
+</div>
+</div>
+</li>
+
+<?php
+
+}
+
+    endwhile;
+
+    $posts_html = ob_get_contents();
+
+    ob_end_clean();
+
+    if ( $number_of_new_posts == 0 ) {
+
+    	echo '0';
+
+    } else {
+
+        //$json_data = array("numberofnewposts" =>$number_of_new_posts, "html" => $posts_html, "lastposttime" => gmdate( 'Y-m-d H:i:s' ));
+		$json_data = array("numberofnewposts" =>$number_of_new_posts, "html" => $posts_html, "lastposttime" => gmdate( 'Y-m-d H:i:s' ));
+
+    	echo json_encode( $json_data );
+
+    }
+
+    exit;
+
+}
+
+
 //Tim added
 function AjaxLoad(){
 	global $wpdb;
@@ -2887,6 +2975,17 @@ function AjaxLoad(){
 }
 add_action('init', 'AjaxLoad');
 
+function AjaxLoad1(){
+	global $wpdb;
+ if( isset($_GET['action'])){
+            if($_GET['action'] == 'prologue_latest_posts_sidebar1'  ){
+			
+		prologue_latest_posts_sidebar1();
+
+            }
+}
+}
+add_action('init', 'AjaxLoad1');
 
 //Tim added
 function suffusion_share($output)
@@ -2986,25 +3085,6 @@ function delete_image($output)
 {
 	if(!is_single())
 	{
-		//$matches = array();
-		//
-		//$test = '<p>a前面</p><p>b中间</p><p style="text-align: center">我是中文abc</p>ttt';
-		//$testoutput = preg_replace( "@<p(.*?)(style)(.*?)</p>@is", "", $test ); 
-		//$testoutput1 = preg_replace( "@<p(.*?)</p>@is", "", $test ); 
-		//
-		//if(preg_match("@<p.*?</p>@i", $test, $matches)){
-		//    var_dump($matches);
-		//}
-		//
-		//if(preg_match_all("@<p>.*?</p>@i", $test, $matches)){
-		//    var_dump($matches);
-		//}
-		
-
-		//$output= htmlspecialchars_decode($output); 
-		//$output = preg_replace( "@<p(.*?)text-align: center(.*?)</p>@is", "", $output ); 
-		//$output = preg_replace("@<hr/>.*@",'...',$output);
-		
 	    return strip_tags($output);
 	}
 	else
