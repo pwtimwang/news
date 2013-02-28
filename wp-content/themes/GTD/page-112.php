@@ -1,5 +1,5 @@
 ﻿<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xmlns:wb="http://open.weibo.com/wb" dir="ltr" lang="zh-CN">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="zh-CN">
 <head profile="http://gmpg.org/xfn/11">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta charset="utf-8">
@@ -19,7 +19,7 @@ li.newupdates, li.newcomment {
 	background:#EEF7FC;
 }
 </style>
-<script src="http://tjs.sjs.sinajs.cn/open/api/js/wb.js?appkey=761238391" type="text/javascript" charset="utf-8"></script>
+
 </head>
 
 <body youdao="youdao">
@@ -31,17 +31,6 @@ li.newupdates, li.newcomment {
     <p></p>
   </div>
 -->
-<script type="text/javascript">
-// 如需添加回调函数，请在wbml标签中添加onlogin="login" onlogout="logout"，并定义login和logout函数。
-function login(o) {
-    alert(o.screen_name)
-}
- 
-function logout() {
-    alert('logout');
-}
-</script>
-<wb:login-button type="3,2" ></wb:login-button>
 
   <!-- /顶部边框/标识彩条 -->
   <div class="weiboShow_wrap"> 
@@ -258,7 +247,7 @@ function logout() {
 		switch (updater) {
 			case "unewposts":
 				if (0 == getPostsUpdate) {
-					getPostsUpdate = setInterval(getPosts, updateRate);
+					//getPostsUpdate = setInterval(getPosts, updateRate);
 				}
 				else {
 					clearInterval(getPostsUpdate);
@@ -289,13 +278,7 @@ function logout() {
 	bindActions();
 </script>
 
-<script language="JavaScript">
-$(document).ready(function(){
-        parent.document.all("iframepage").style.height=document.body.scrollHeight; 
-parent.document.all("iframepage").style.width=document.body.scrollWidth;
-    });
-});
-</script>
+
 
 
 
