@@ -217,7 +217,7 @@ jQuery(function($) {
 		
 		if(jQuery('.no-posts')) jQuery('.no-posts').hide();
 		
-		if ("" == posttext) {
+		if ("" == posttext || undefined == posttext) {
 			$("label#posttext_error").text('This field is required').show().focus();
 			return false;
 		}
