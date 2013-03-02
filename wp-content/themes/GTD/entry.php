@@ -63,7 +63,7 @@
 
 	    <div class="postcontent<?php if (current_user_can( 'edit_post', get_the_id() )) {?> editarea<?php } ?>" id="content-<?php the_ID(); ?>">
 
-	        <?php the_content( __( '...' , 'p2') ); ?>
+	        <?php the_content( __( '' , 'p2') ); ?>
             
             <?php
             $attached_file = get_post_meta($post->ID, 'attached_file', $single = true);
