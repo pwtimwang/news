@@ -18,6 +18,7 @@ if(get_option('feed_access')=='require_login' && !getLoginUserInfo())
     <link rel="alternate" type="application/rss+xml" title="<?php bloginfo('name'); ?> RSS Feed" href="<?php bloginfo('rss2_url'); ?>" />
     <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 	<script src="http://tjs.sjs.sinajs.cn/open/api/js/wb.js?appkey=761238391" type="text/javascript" charset="utf-8"></script>
+	<link rel="shortcut icon" href="http://news.pingwest.com/favicon.ico">
     <?php wp_head(); ?>
 </head>
 <body<?php if(is_single()) echo ' class="single"'; ?>>
