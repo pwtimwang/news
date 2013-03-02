@@ -825,7 +825,8 @@ $t3 = <<<test
 <h2 class="$t1" id="ptitlet-$t2">
 test;
 
-	if( (false === $pos or $pos > 0) && $post->post_title != '') 
+	//if( (false === $pos or $pos > 0) && $post->post_title != '') 
+	if( $post->post_title != '') 
 		//echo (is_single()) ? $before.$t.$after : $before.'<a href="'.get_permalink( $post->id ).'">'.$t.'</a>'.$after;
 		echo (is_single()) ? $before.$t.$after : $t3.'<a href="'.get_permalink( $post->id ).'">'.$t.'</a>'.$after;
 		//echo (is_single()) ? $before.$t.$after : $before.'<a>'.$t.'</a>'.$after;
