@@ -44,7 +44,8 @@ if(get_option('feed_access')=='require_login' && !getLoginUserInfo())
 	  }
 	  ?>    </div>
             
-            
+            <?php get_search_form(); ?>
+	
 <!--
             <ul class="nav">
             	<li><a href="http://www.pingwest.com/">首页</a></li><li><a href="http://news.pingwest.com/">快讯</a></li><li><a href="http://www.pingwest.com/category/%e5%89%8d%e6%b2%bf/">前沿</a></li><li><a href="http://www.pingwest.com/category/%e5%ae%9e%e5%bd%95/">实录</a></li><li><a href="http://www.pingwest.com/category/%e6%80%81%e5%ba%a6/">态度</a></li><li><a href="http://www.pingwest.com/category/demo/">Demo</a></li><li><a href="http://www.pingwest.com/category/%e5%88%b0%e7%a1%85%e8%b0%b7%e4%b8%ad%e5%9b%bd%e5%8e%bb/">到硅谷/中国去</a></li><li><a href="http://www.pingwest.com/category/ceo%e4%b8%93%e6%a0%8f/">CEO专栏</a></li> <li><a href="http://www.pingeast.com/">PingEast</a></li>

@@ -212,7 +212,7 @@ text-align:center;
 #postbox .postrow {
 	height: 28px;
 }
-#wrapper button, #wrapper input[type="submit"] {
+#header button, #header input[type="submit"], #wrapper button, #wrapper input[type="submit"] {
 	margin-left: 10px;
 	border: 1px solid #ccc;
 	border-radius: 12px;
@@ -974,3 +974,13 @@ p.show { font-weight:bold; margin:0 0 5px 0;  }
     list-style-type: square;
     margin-left: 20px;
 }
+
+#header #search
+{
+    float:right;
+    margin:10px 0 0 0;
+    height: 28px;
+ }
+ 
+ #header #search form
+ {width:217px;}
