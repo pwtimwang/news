@@ -2215,7 +2215,16 @@ function hilite( $text ) {
 
 		} else {
 
-			$text = preg_replace( '/(?<=>)([^<]+)?(\b'.$term.'\b)/i','$1<span class="hilite">$2</span>', $text );
+			//$text = preg_replace( '/(?<=>)([^<]+)?(\b'.$term.'\b)/i','$1<span class="hilite">$2</span>', $text );
+			
+			$text = str_replace($term,'<span class="hilite">'.$term.'</span>',$text);
+			
+			//if(mb_ereg_match('/'.$term.'/i',$text))
+			//{
+			//	echo "<br/>match1<br/>";
+			//	$text = mb_ereg_replace( '/'.$term.'/i','<span class="hilite">$0</span>ttttttttttttt', $text );
+			//}
+			
 
 		}
 
@@ -2929,7 +2938,7 @@ function prologue_latest_posts_sidebar1() {
 		<a href="<?php the_permalink( ); ?>" class="thepermalink" style="color:#343535;font-weight:bold"><?php echo ($post->post_title); ?> </a> 
 </p>
 
-		<p><?php echo mb_substr(strip_tags($post->post_content),0,90,'UTF8'); ?>......</p>
+		<p><?php echo mb_substr(strip_tags($post->post_content),0,110,'UTF8'); ?>......</p>
 </div>
 </div>
 </div>
@@ -3030,7 +3039,7 @@ function suffusion_share1($output=null)
 	$share_str = <<<test
 <!-- JiaThis Button BEGIN -->
 
-<div style="height:16px">
+<div style="height:16px;float: right;">
 <div class="jiathis_style" style ="display:none" id="ckepop" style="clear: both">
 
 
