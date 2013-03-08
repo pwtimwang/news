@@ -1,12 +1,88 @@
 ﻿	<div style="clear: both;"></div>
 </div> <!-- // wrapper -->
 
+
+
+<style type="text/css">
+.alllinks {
+width: 960px;
+border-bottom: 2px double #D0D0D0;
+overflow: hidden;
+padding: 10px 0;
+background-color: rgb(245, 245, 253);
+font-size: 12px;
+margin-bottom: 10px;
+}
+.alllinks ul {
+margin: 5px auto;
+width: 805px;
+overflow: hidden;
+padding-left: 100px;
+position: relative;
+list-style: none;
+}
+.alllinks li.li-top {
+position: absolute;
+left: 0;
+top: 0;
+font-weight: bold;
+}
+.alllinks li {
+float: left;
+width: 100px;
+line-height: 26px;
+}
+
+.alllinks li a 
+{
+color: #444;
+}
+
+
+.ft-c {
+background-attachment: scroll;
+background-clip: border-box;
+background-origin: padding-box;
+background-position: 0 0;
+background-repeat: repeat-x;
+background-size: auto auto;
+color: #000000;
+height: 100px;
+line-height: 30px;
+margin: 0 auto;
+text-align: center;
+width: 960px;
+}
+
+.pipe {
+margin: 0 5px;
+color: #CCC;
+}
+
+.ft-c a
+{
+color: #444;
+}
+
+</style>
+
 <div id="footer">
-	<p>
+
+	<div class="alllinks">
+		<ul>
+			<li class="li-top">内容合作伙伴</li>
+			<li><a href="http://tech.sina.com.cn/" title="新浪科技" target="_blank">新浪科技</a></li>
+			<li><a href="http://it.sohu.com/" title="搜狐 IT" target="_blank">搜狐  IT</a></li>
+			<li><a href="http://tech.163.com/" title="网易科技" target="_blank">网易科技</a></li>			
+			<li><a href="http://tech.qq.com/" title="腾讯科技" target="_blank">腾讯科技</a></li>
+		</ul>
+	</div>
+
+	<div style="text-align: center;">
 		<p>京ICP备13008448号        © 2012 PingWest 北京品西互动科技有限公司</p>
 		<br/>
 		<?php echo prologue_poweredby_link(); ?>	    
-	</p>
+	</div>
 </div>
 <div id="notify"></div>
 <div id="help">
