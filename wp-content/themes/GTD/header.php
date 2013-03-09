@@ -44,6 +44,8 @@ if(get_option('feed_access')=='require_login' && !getLoginUserInfo())
 	  }
 	  ?>    </div>
             
+            <span style="position: absolute;right: 300px;top: 30px;font-size: 14px;"><a href="http://www.pingwest.com" target="_blank">返回PingWest主站点</a></span>
+
             <?php get_search_form(); ?>
 	
 <!--
