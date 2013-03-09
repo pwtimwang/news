@@ -1826,7 +1826,13 @@ function prologue_latest_posts() {
 
 		<span class="meta">
 
-		    <?php echo  get_the_time( 'Y-m-d H:i:s' ); ?>			
+		    <?php echo  get_the_time( 'Y-m-d H:i:s' ); ?>	
+			
+			<?php if(post_has_img()): ?>
+				<div style="float: right;margin-right:120px"><img src="http://news.pingwest.com/wp-content/uploads/2013/03/tubiao12.ico" style="    height: 15px;    width: 15px;"></div>
+			<?php endif; ?>
+				
+						
 			<span class="actions" style="left:150px;"><a href='<?php echo get_permalink($post->ID); ?>' style='font-size:0.85em;margin-left:20px;color:#3478e3'>【参与讨论】</a></span>
 
 			<span class="actions">
@@ -3119,4 +3125,26 @@ function outputCommentsNum()
 	{
 		echo "<a id='commentNum-".$post->ID."' href='".get_permalink($post->ID) . "' style='margin-left:20px'>【参与讨论】</a>";
 	}
+}
+
+if(!function_exists('post_has_img'))
+	{
+
+    function post_has_img()
+		{
+			
+		$post_content = get_the_content();
+
+		preg_match('|<img.*?src=|i', $post_content, $matches);		
+		
+        if($matches){      
+			return true;
+
+        }else{
+            return false;
+
+        }
+
+    }
+
 }

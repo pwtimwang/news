@@ -16,6 +16,10 @@
 				
 			    <?php outputCommentsNum(); ?>
 
+				<?php if(post_has_img()): ?>
+				<div style="float: right;margin-right:120px"><img src="http://news.pingwest.com/wp-content/uploads/2013/03/tubiao12.ico" style="    height: 15px;    width: 15px;"></div>
+				<?php endif; ?>
+
 			    <span class="actions">
 					<?php
 						//just display in the home, in single, it is showed in the bottom
