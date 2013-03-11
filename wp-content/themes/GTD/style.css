@@ -820,6 +820,7 @@ form.textedit textarea {
 }
 #postpage .postcontent {
 	margin-left: 0px;
+	overflow-x: hidden;
 }
 #postpage #main ul#postlist, #postpage #main ul#postlist li {
 	border-width: 0;
