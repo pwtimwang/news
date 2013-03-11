@@ -106,6 +106,9 @@
 	    <?php echo suffusion_share1(); ?>
 		
 			
+			
+		<div id="wumiiDisplayDiv"></div>
+			
 	    </div> <!-- // postcontent -->
 		<?php /*?> <?php $attached_file = get_post_meta($post->ID, 'attached_file', $single = true);
 		if($attached_file)
