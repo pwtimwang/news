@@ -192,7 +192,12 @@ register_theme_directory( get_theme_root() );
 
 // Load active plugins.
 foreach ( wp_get_active_and_valid_plugins() as $plugin )
-	include_once( $plugin );
+{
+	if(!(strripos($plugin,'wptouch',0) && strripos($_SERVER['REQUEST_URI'],'quicknews',0)))
+	{
+		include_once( $plugin );		
+	}	
+}
 unset( $plugin );
 
 // Load pluggable functions.
