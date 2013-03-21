@@ -159,12 +159,11 @@ class SimpleTags_Client_Autolinks extends SimpleTags_Client {
 				$j = 0;
 				$filtered = ''; // will filter text token by token
 				
-				//2013/03/13 Tim modified to support chinese
-				//$match = '/(\PL|\A)(' . preg_quote($term_name, "/") . ')(\PL|\Z)/u'.$case;
-				//$substitute = '$1<a href="'.$term_link.'" class="st_tag internal_tag" '.$rel.' title="'. esc_attr( sprintf( __('Posts tagged with %s', 'simpletags'), $term_name ) )."\">$2</a>$3";
+				$match = '/(\PL|\A)(' . preg_quote($term_name, "/") . ')(\PL|\Z)/u'.$case;
+				$substitute = '$1<a href="'.$term_link.'" class="st_tag internal_tag" '.$rel.' title="'. esc_attr( sprintf( __('Posts tagged with %s', 'simpletags'), $term_name ) )."\">$2</a>$3";
 				
-				$match = "/" . preg_quote($term_name, "/") . "/".$case;
-				$substitute = '<a href="'.$term_link.'" class="st_tag internal_tag" '.$rel.' title="'. esc_attr( sprintf( __('Posts tagged with %s', 'simpletags'), $term_name ) )."\">$0</a>";
+				//$match = "/\b" . preg_quote($term_name, "/") . "\b/".$case;
+				//$substitute = '<a href="'.$term_link.'" class="st_tag internal_tag" '.$rel.' title="'. esc_attr( sprintf( __('Posts tagged with %s', 'simpletags'), $term_name ) )."\">$0</a>";
 				
 				// for efficiency only tokenize if forced to do so
 				if ( $must_tokenize ) {

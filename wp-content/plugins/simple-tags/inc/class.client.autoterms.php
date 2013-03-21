@@ -97,10 +97,7 @@ class SimpleTags_Client_Autoterms extends SimpleTags_Client {
 				
 				// Whole word ?
 				if ( (int) $options['only_full_word'] == 1 ) {
-					
-					//2013/03/13 Tim modified to support chinese
-					//if ( preg_match("/\b".$term."\b/i", $content) )
-					if ( preg_match("/".$term."/i", $content) )
+					if ( preg_match("/\b".$term."\b/i", $content) )
 						$terms_to_add[] = $term;
 				} elseif ( stristr($content, $term) ) {
 					$terms_to_add[] = $term;
