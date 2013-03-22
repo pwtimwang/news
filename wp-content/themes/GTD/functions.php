@@ -3027,6 +3027,11 @@ test;
 
 function suffusion_share1($output=null)
 {
+//	return $output;
+//}
+//
+//function suffusion_share2($output=null)
+//{
 	global $post;
 	//$excerpt_image=suffusion_get_image_from_custom_field('thumbnail');
 	$appdix = '... @PingWest中文网';
@@ -3042,6 +3047,14 @@ function suffusion_share1($output=null)
 		$share_content = $orgial_content;
 	}
 	
+	$img = get_post_first_image(get_the_content());
+	if(!$img)
+	{
+		$img = null;
+	}
+	
+	$url = get_permalink( );
+	
 	$share_str = <<<test
 <!-- JiaThis Button BEGIN -->
 
@@ -3049,23 +3062,23 @@ function suffusion_share1($output=null)
 <div class="jiathis_style" style ="display:none" id="ckepop" style="clear: both">
 
 
-<a target="_blank" href="http://www.jiathis.com/send/?webid=qzone&url=http://news.pingwest.com&title= $share_content " title="分享到QQ空间" class="jiathis_button_qzone">
-<span class="jiathis_txt jtico jtico_qzone"></span>
-</a>
-
-<a target="_blank" href="http://www.jiathis.com/send/?webid=tsina&url=http://news.pingwest.com&title= $share_content" class="jiathis_button_tsina" title="分享到新浪微博">
+<a target="_blank" href="http://www.jiathis.com/send/?webid=tsina&url= $url &title= $share_content&pic= $img" class="jiathis_button_tsina" title="分享到新浪微博">
 <span class="jiathis_txt jtico jtico_tsina"></span>
 </a>
 
-<a target="_blank" href="http://www.jiathis.com/send/?webid=qzone&url=http://news.pingwest.com&title=$share_content" class="jiathis_button_tqq" title="分享到腾讯微博">
+<a target="_blank" href="http://www.jiathis.com/send/?webid=qzone&url= $url &title= $share_content&pic= $img " title="分享到QQ空间" class="jiathis_button_qzone">
+<span class="jiathis_txt jtico jtico_qzone"></span>
+</a>
+
+<a target="_blank" href="http://www.jiathis.com/send/?webid=qzone&url= $url &title=$share_content&pic= $img" class="jiathis_button_tqq" title="分享到腾讯微博">
 <span class="jiathis_txt jtico jtico_tqq"></span>
 </a>
 
-<a target="_blank" href="http://www.jiathis.com/send/?webid=renren&url=http://news.pingwest.com&title=$share_content" class="jiathis_button_renren" title="分享到人人网">
+<a target="_blank" href="http://www.jiathis.com/send/?webid=renren&url= $url &title=$share_content&pic= $img" class="jiathis_button_renren" title="分享到人人网">
 <span class="jiathis_txt jtico jtico_renren"></span>
 </a>
 
-<a target="_blank" href="http://www.jiathis.com/send/?webid=kaixin001&url=http://news.pingwest.com&title=$share_content" class="jiathis_button_kaixin001" title="分享到开心网">
+<a target="_blank" href="http://www.jiathis.com/send/?webid=kaixin001&url= $url &title=$share_content&pic= $img" class="jiathis_button_kaixin001" title="分享到开心网">
 <span class="jiathis_txt jtico jtico_kaixin001"></span>
 </a>
 
@@ -3141,6 +3154,30 @@ if(!function_exists('post_has_img'))
 			return true;
 
         }else{
+            return false;
+
+        }
+
+    }
+
+}
+
+
+
+if(!function_exists('get_post_first_image'))
+	{
+
+    function get_post_first_image($post_content)
+		{
+
+        preg_match_all('|<img.*?src=[\'"](.*?)[\'"].*?>|i', $post_content, $matches);
+
+        if($matches){      
+
+            return $matches[1][0];
+
+        }else{
+
             return false;
 
         }
